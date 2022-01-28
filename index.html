@@ -31,16 +31,16 @@
   </head>
 
   <body>
-            <h1 aria-main="true">Hall of fame</h1>
-            <div className="hero">
-                        <h1>Hero count: {heroCount}</h1>
-            </div>
-            <!-- Piszemy w Reactcie czy czystym JSem? W JSie będziemy trzymać się konwencji "class", w reacie zaś w "className". Jeżeli piszemy w React, to nie ma tu należytego komponentu który zwróciłby nam zawartość.
+    <h1 aria-main="true">Hall of fame</h1>
+    <div className="hero">
+      <h1>Hero count: {heroCount}</h1>
+    </div>
+    <!-- Piszemy w Reactcie czy czystym JSem? W JSie będziemy trzymać się konwencji "class", w reacie zaś w "className". Jeżeli piszemy w React, to nie ma tu należytego komponentu który zwróciłby nam zawartość.
             Skąd bierze się "{heroCount}". Nie widać ani obiektu state z komponentu klasowego, ani  hooka useState z komponentu klasowego-->
-            <button onclick="Hero.train()">Power Up hero</button>
-            <!-- źle zapisana metoda onClick -->
+    <button onclick="Hero.train()">Power Up hero</button>
+    <!-- źle zapisana metoda onClick -->
 
-            <script></script>
-            <!-- script powinien być ZA body, bądź w headzie z atrybutem DEFER(true). Brak SRC. Skrypt prowadzi "do nikąd"  -->
+    <script></script>
+    <!-- script powinien być ZA body, bądź w headzie z atrybutem DEFER(true). Brak SRC. Skrypt prowadzi "do nikąd"  -->
   </body>
 </html>
